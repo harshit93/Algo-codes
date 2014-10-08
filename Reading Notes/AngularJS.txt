@@ -1,0 +1,5 @@
+For AngularJS, the directives control the behaviour of the elements
+Modules: Modularizes the code, and here we define all the dependencies
+Directive: ng-app: Goes with the <html> tag, and runs the module written with it (the name), when the documant loads
+Expressions: Way of inserting dynamic values into HTML
+Controllers: We define behaviour and values here

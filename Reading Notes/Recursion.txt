@@ -1,0 +1,5 @@
+In order to solve a problem by recursion, keep in mind that:
+1. It should have subproblems
+2. There should be a base condition on which it terminates
+3. The sub problem to be solved should be same as the parent problem, but of a smaller magnitude.
+4. There should be no cycles (We should not reach a state we started off from)

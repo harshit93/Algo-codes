@@ -1,0 +1,31 @@
+#include<iostream>
+#include<algorithm>
+#include<math>
+using namespace std;
+
+typedef long long int LL;
+LL m;
+LL fact(LL a)
+{
+	LL fac=1;
+	for(LL i=1;i<=a;i++)
+		fac=(i*fac)%pow(10,m);
+	return fac;
+}
+
+main()
+{
+	LL t;
+	cin>>t;
+	LL n,ans;
+	while(t--)
+	{
+		cin>>n>>m;
+		ans=fact(n);
+		ans=fact(ans);
+		cout<<ans<<endl;
+	}
+	
+
+
+}
